@@ -7,7 +7,7 @@ class read_data:
     def __init__(self,dbnm,tblnm,tgt_dir):
         self.dbnm=dbnm
         self.tblnm=tblnm
-        self.tgt_dir = dir
+        self.tgt_dir = tgt_dir # changed dir to tgt_dir
         self.sp=connect()
     def read_df(self):
         df = connect.resultDf(self.sp,self.dbnm,self.tblnm)
