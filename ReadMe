@@ -1,0 +1,5 @@
+This small project helps to read data from Postgresql and transform data using pyspark , then export the result in csv file.
+config.cfg : File which include required path and access details to connect with DB
+connect.py : Connects postgresql with the help of jdbc connector to pyspark
+ReadData.py : helps to read data from postgresql table to pyspark dataframe
+Transform.py : will transform data into desired output for analysis purpose and export the output into csv file.
